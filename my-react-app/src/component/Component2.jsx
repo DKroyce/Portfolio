@@ -10,8 +10,8 @@ function Component2(){
 border:"1px solid rgb(255, 255, 255,0.10)",
     backdropFilter: "blur(50px)",justifyContent:"space-between"}}>
         <Box  >
-        <Typography fontSize={16} color="grey" >Experience</Typography>
-        <Typography fontSize={28}sx={{fontWeight:"bold"}}>2+</Typography></Box>
+        <Typography fontSize={16} color="grey" >Github repo</Typography>
+        <Typography fontSize={28}sx={{fontWeight:"bold"}}>5+</Typography></Box>
         <Box>
             <Box component="img"src={icon1} sx={{ background:"rgba(56, 191, 248, 0.10)",p:1.5,borderRadius:"15px",mt:1}} />
         </Box>
@@ -20,7 +20,7 @@ border:"1px solid rgb(255, 255, 255,0.10)",
 
     backdropFilter: "blur(50px)"}}>
         <Box>
-       <Typography fontSize={16} color="grey" >Experience</Typography>
+       <Typography fontSize={16} color="grey" >Practical Experience</Typography>
         <Typography fontSize={28}sx={{fontWeight:"bold"}}>1+</Typography></Box>
        
           <Box>
