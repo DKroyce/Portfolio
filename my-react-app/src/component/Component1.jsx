@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
-import image from './image.png';
+
 import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
-import image2 from './image2.png';
+
 import image3 from './image3.png';
 import { Link } from "react-router-dom";
 function Component1(){

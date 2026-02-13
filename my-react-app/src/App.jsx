@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import { Box, Container, Stack, ThemeProvider} from '@mui/material'
+import {  ThemeProvider} from '@mui/material'
 
 import Hero from './component/Hero'
-import Menu2 from './component/Menu2'  
-import ProductPage from './component/ProductPage'
+
 import ViewDemo from './component/ViewDemo'
 import ViewDemo2 from './component/ViewDemo2'
 import ViewDemo3 from './component/ViewDemo3'
 import Structure from './Structure'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Component3 from './component/Component3'
+
 import Skills from './component/Skills'
 import { defaultTheme } from './theme'
 import ProjectPage from './component/ProjectPage'

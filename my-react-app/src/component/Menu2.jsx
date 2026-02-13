@@ -1,13 +1,9 @@
 import {Box, Button, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Typography} from '@mui/material'
-import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
+
 import { Link } from 'react-router-dom';
-import { act, useState } from 'react';
+import {  useState } from 'react';
 import icon1 from './icon6.png';
-import icon2 from './icon7.png';
-import icon3 from './icon8.png';
-import icon4 from './icon9.png';
-import icon5 from './icon10.png';
-import icon6 from './icon11.png';
+
 import icon7 from './icon12.png';
 import icon8 from './icon13.png';
 import icon9 from './icon14.png';

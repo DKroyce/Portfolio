@@ -1,6 +1,5 @@
 import { Box, Button, Paper, Typography } from "@mui/material";
-import image from './imag.png';
-import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
+
 import { Link } from "react-router-dom";
 import icon from './icon5.png';
 function Card1(props){

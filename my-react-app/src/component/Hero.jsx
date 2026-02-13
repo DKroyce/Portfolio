@@ -1,5 +1,5 @@
 import {AppBar, Box, Grid} from '@mui/material'
-import Component1 from './component1';
+import Component1 from './Component1';
 import Component4 from './Component4';
 import Component3 from './Component3';
 import Component2 from './Component2';

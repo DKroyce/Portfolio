@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import Card1 from "./Card1";
+
 import Card2 from "./Card2";
 import { Link } from "react-router-dom";
 
