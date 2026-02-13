@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Box, Container, Stack, ThemeProvider} from '@mui/material'
 
-import Hero from './component/hero'
+import Hero from './component/Hero'
 import Menu2 from './component/Menu2'  
 import ProductPage from './component/ProductPage'
 import ViewDemo from './component/ViewDemo'
