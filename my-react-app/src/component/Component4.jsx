@@ -17,9 +17,9 @@ function Component4(){
       lg: "repeat(2, 1fr)",
       xl: "repeat(2, 1fr)",
       xk: "repeat(2, 1fr)",
-    }}}> <Card2 url="/demo1" title="LearnHub - Microservices-Based E-Learning Platform" />
+    }}}> <Card2 url="/demo1" linkurl="https://github.com/DKroyce" title="LearnHub - Microservices-Based E-Learning Platform" />
   <Card2
-   url="/demo2" title="FreshCart - Fruits & Vegetables Management System"  /></Box>
+   url="/demo2" linkurl="https://github.com/DKroyce/my-shop-admin" title="FreshCart - Fruits & Vegetables Management System"  /></Box>
     </Box>
     </>)
    

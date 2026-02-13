@@ -19,7 +19,13 @@ borderRadius={"14px"}
         <Typography color="white"  sx={{px:2,fontSize:"18px"}}>{props.title}</Typography>
          <Typography color="grey"  sx={{px:2,fontSize:"14px"}}>{props.description} </Typography>
        <Box display={"flex"} px={2} justifyContent={"space-between"}  >    <Link style={{textDecoration:"none",color:"white"}}  to={props.url}><Button sx={{ width:230,backgroundColor:"rgb(56, 189, 248,10%)",color:"#38BDF8",border:"1px solid rgb(56, 189, 248,20%)"}}  variant="contained" >View Demo</Button></Link>
-    <Button variant="outlined" sx={{width:"15px" ,backgroundColor:"#474e5151",border:"1px solid #38bff812"}}><Box
+    <Button variant="outlined"  onClick={() =>
+    window.open(
+      props.linkurl,
+      "_blank",
+      "noopener,noreferrer"
+    )
+  }  sx={{width:"15px" ,backgroundColor:"#474e5151",border:"1px solid #38bff812"}}><Box
         component="img"
         src={icon}
         alt="icon"
@@ -29,6 +35,7 @@ borderRadius={"14px"}
            width:"20px",
           objectFit: "contain",
         }}
+
       /></Button></Box> 
     </Paper>
     </>)

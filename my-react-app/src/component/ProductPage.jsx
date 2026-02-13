@@ -21,7 +21,7 @@ function ProductPage(){
       lg: "repeat(3, 1fr)",
       xl: "repeat(3, 1fr)",
       xk: "repeat(4, 1fr)",
-    }}}><Card1 url="/demo1" image={image} title="LearnHub - Microservices-Based E-Learning Platform" description="Built a scalable e-learning platform using Spring Boot microservices and React with API Gateway."/><Card1 url="/demo2" image={image2} title="FreshCart - Fruits & Vegetables Management System" description="Built a full-stack CRUD application using Spring Boot REST API and React with separate Admin."/><Card1 url="/demo3" image={image3} title="Rcb Print Lab - Printing Services Web Application" description="uilt a production-ready React frontend for a printing services business website."/></Box>
+    }}}><Card1 url="/demo1" linkurl="https://github.com/DKroyce" image={image} title="LearnHub - Microservices-Based E-Learning Platform" description="Built a scalable e-learning platform using Spring Boot microservices and React with API Gateway."/><Card1 url="/demo2" linkurl="https://github.com/DKroyce/my-shop-admin" image={image2} title="FreshCart - Fruits & Vegetables Management System" description="Built a full-stack CRUD application using Spring Boot REST API and React with separate Admin."/><Card1 url="/demo3" linkurl="https://github.com/DKroyce/" image={image3} title="Rcb Print Lab - Printing Services Web Application" description="uilt a production-ready React frontend for a printing services business website."/></Box>
     
       </Box>
  </Box>  
