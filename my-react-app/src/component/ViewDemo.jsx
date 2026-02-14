@@ -3,10 +3,11 @@ import { Box, Button, Stack, Typography } from "@mui/material";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import image from './demo1.png';
-import image1 from './demo1.png';
+import image1 from './demo1.9.png';
 import image2 from './demo1.2.png';
 import image3 from './demo1.3.png';
 import image4 from './demo1.4.png';
+
 import icon8 from './undo.png'
 import '/src/index.css'
 import CrueltyFreeIcon from '@mui/icons-material/CrueltyFree';

@@ -82,27 +82,7 @@ color: "#38BDF8"
                     <ListItemText primary="Skills"  />
                 </ListItemButton>
             </ListItem></Link> 
-             <ListItem disablePadding>
-                <ListItemButton onClick={()=>{setActiveItem("certificates")}} sx={{ backgroundColor:activeItem ==="certificates" ? "#38bff855" : "transparent",color:activeItem ==="certificates" ? "#38BDF8" : "#94A3B8", "&:hover":{
-backgroundColor:activeItem ==="certificates" ? "#38bff855" : "transparent",
-color:"#38BDF8"
-                } ,borderRadius:"10px", }}>
-                    <ListItemIcon>
-                        <Box
-                            component="img"
-                             src={ icon7}
-                            alt="icon"
-                            sx={{
-                                color:"white",
-                               height:"20px",
-                               width:"20px",
-                              objectFit: "contain",
-                            }}
-                          />
-                    </ListItemIcon>
-                    <ListItemText primary="Certificates" />
-                </ListItemButton>
-            </ListItem>
+            
               <Link style={{textDecoration:"none",color:"white"}}  to="/about"> <ListItem disablePadding>
                 <ListItemButton onClick={()=>{setActiveItem("about")}} sx={{ backgroundColor:activeItem ==="about" ? "#38bff855" : "transparent",color:activeItem ==="about" ? "#38BDF8" : "#94A3B8", "&:hover":{
 backgroundColor:activeItem ==="about" ? "#38bff855" : "transparent",
@@ -125,7 +105,7 @@ color:"#38BDF8"
                 </ListItemButton>
             </ListItem></Link>
         </List>
-        <Box sx={{mt:"100%",mb:"auto", color:"white", background:"linear-gradient(45deg, #3491bb59, #32454e27)", border: "1px solid #ffffff2e",borderRadius:"16px"}} p={2} mt={5} display={"flex"} flexDirection={"column"} alignItems={"left"} gap={1}>
+        <Box sx={{mt:"120%",mb:"auto", color:"white", background:"linear-gradient(45deg, #3491bb59, #32454e27)", border: "1px solid #ffffff2e",borderRadius:"16px"}} p={2} mt={5} display={"flex"} flexDirection={"column"} alignItems={"left"} gap={1}>
             <Typography color='#8B949E'>Status</Typography>
          <Box display={'flex'} p={1}>   <Box
   sx={{

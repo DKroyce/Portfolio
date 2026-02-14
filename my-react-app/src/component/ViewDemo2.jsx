@@ -6,10 +6,11 @@ import image from './demo32.png';
 import '/src/index.css'
 import CrueltyFreeIcon from '@mui/icons-material/CrueltyFree';
 import { useEffect, useRef, useState } from "react";
-import image1 from './demo31.png';
-import image2 from './demo33.png';
-import image3 from './demo34.png';
+import image1 from './demo3.9.png';
+import image2 from './demo31.png';
+import image3 from './demo33.png';
 import image4 from './demo34.png';
+import image5 from './demo31.png'
 import icon8 from './undo.png'
 import { Link } from "react-router-dom";
 function ViewDemo2(){
@@ -17,6 +18,7 @@ function ViewDemo2(){
       { id: 1, src: image1, alt: 'Welcome to learnhub' },
        { id: 2, src: image2, alt: 'Welcome to learnhub' },
        { id: 3, src: image3, alt: 'Welcome to learnhub' },
+        { id: 4, src: image4, alt: 'Welcome to learnhub' },
        
     ]
     const [activeIndex, setActiveIndex] = useState(0);

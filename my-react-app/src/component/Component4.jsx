@@ -2,7 +2,8 @@ import { Box, Typography } from "@mui/material";
 
 import Card2 from "./Card2";
 import { Link } from "react-router-dom";
-
+import image1 from './demo1.png';
+import image2 from './demo32.png';
 function Component4(){
     return(<>
 
@@ -17,9 +18,9 @@ function Component4(){
       lg: "repeat(2, 1fr)",
       xl: "repeat(2, 1fr)",
       xk: "repeat(2, 1fr)",
-    }}}> <Card2 url="/demo1" linkurl="https://github.com/DKroyce/Learnhub" title="LearnHub - Microservices-Based E-Learning Platform" />
+    }}}> <Card2 url="/demo1" image={image1} linkurl="https://github.com/DKroyce/Learnhub" title="LearnHub - Microservices-Based E-Learning Platform" />
   <Card2
-   url="/demo2" linkurl="https://github.com/DKroyce/my-shop-admin" title="FreshCart - Fruits & Vegetables Management System"  /></Box>
+   url="/demo2" image={image2} linkurl="https://github.com/DKroyce/my-shop-admin" title="FreshCart - Fruits & Vegetables Management System"  /></Box>
     </Box>
     </>)
    

@@ -25,7 +25,7 @@ function Component3(){
     value={70}/>
     </Box>
      <Box p={1}>
-        <Typography>Cloud (AWS,Docker)</Typography>
+        <Typography>Deploy (Render,Aiven)</Typography>
         <LinearProgress variant="determinate" borderRadius={2} 
     value={70}/>
     </Box>

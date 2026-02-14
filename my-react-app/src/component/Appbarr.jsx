@@ -10,7 +10,7 @@ function Appbarr(){
   1: "/projects",
   2: "/skills",
   3: "/about",
-  4:"/certificates"
+  
 };
     const [activeChip, setActiveChip] = useState(0);
    const handleClick = (chipIndex) => {
@@ -24,7 +24,7 @@ function Appbarr(){
   1: "Projects",
   2: "Skills",
   3: "About",
-  4: "certificates",
+
   
 };
 
@@ -65,11 +65,11 @@ const [scrolled, setScrolled] = useState(false);
       
       </Box>
     </Box>
-    <Stack direction={"row"} sx={{  
+    <Stack direction={"row"} sx={{
     scrollbarWidth: 'none', // Firefox
     '&::-webkit-scrollbar': {
       display: 'none', // Chrome, Safari
-    }, overflowX: 'auto', position: "fixed",pt:2,top: 70,zIndex: 998, display:"flex",height:50, width:"100%", gap:1, 
+    }, overflowX: 'auto', position: "fixed",pt:2,top: 70,zIndex: 998, display:"flex",height:50,justifyContent:"space-between", width:"100%", gap:1, 
 
 boxShadow: "inset 0 1px 0 #ffffff6e, inset 0 -1px 0 #ffffff6e",
     backgroundColor:  scrolled ? "#0F172A":"#ffffff15",transition: "all 0.3s ease"}}>
@@ -88,11 +88,7 @@ boxShadow: "inset 0 1px 0 #ffffff6e, inset 0 -1px 0 #ffffff6e",
             color:"#0EA5FF",
             border: '1px solid #0EA5FF'
           },}}/>
-<Chip label="About me"  variant={activeChip === 3 ? 'filled' : 'outlined'}   onClick={() => handleClick(3)} sx={{color:"#ffffffdc",'&:hover': {
-            backgroundColor: 'rgba(14, 167, 255, 0.13)',
-            color:"#0EA5FF",
-            border: '1px solid #0EA5FF'
-          },}}/><Chip label="Certificates"  variant={activeChip === 4 ? 'filled' : 'outlined'}   onClick={() => handleClick(4)} sx={{mr:2,color:"#ffffffdc",'&:hover': {
+<Chip label="About me"  variant={activeChip === 3 ? 'filled' : 'outlined'}   onClick={() => handleClick(3)} sx={{mr:2,color:"#ffffffdc",'&:hover': {
             backgroundColor: 'rgba(14, 167, 255, 0.13)',
             color:"#0EA5FF",
             border: '1px solid #0EA5FF'

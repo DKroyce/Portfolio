@@ -1,5 +1,5 @@
 import { Box, Button, Paper, Typography } from "@mui/material";
-import image from './imag.png';
+
 
 import { Link } from "react-router-dom";
 import icon from './icon5.png';
@@ -10,7 +10,7 @@ function Card2(props){
    background:"linear-gradient(135deg, rgb(30, 41, 59,40%), #1e293b32)", border: "1px solid #ffffff2e",boxShadow:"0 0 6px #ffffff57",borderRadius:"16px"}}   >
         <Box
         component="img"
-        src={image}
+        src={props.image}
         width={"100%"}
         height={150}
 borderRadius={"16px"}
